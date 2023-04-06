@@ -27,7 +27,7 @@ const updateFoodPosition = () => {
 
 const handleGameOver = () => {
   clearInterval(setIntervalId)
-  alert('Perdeu Randola! Vai de novo!...')
+  alert('Perdeu Randola!!! Vai de novo...')
   location.reload()
 }
 
